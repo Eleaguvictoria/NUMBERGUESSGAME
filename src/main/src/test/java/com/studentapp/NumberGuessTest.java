@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-public class NumberGuessServletTest {
+public class NumberGuessServletTest.java {
     private NumberGuessServlet servlet;
     private HttpServletRequest request;
     private HttpServletResponse response;
