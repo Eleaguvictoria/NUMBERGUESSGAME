@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/NUMBERGUESSGAME.git'
+                git 'https://github.com/Eleaguvictoria/NUMBERGUESSGAME.git'
             }
         }
 
