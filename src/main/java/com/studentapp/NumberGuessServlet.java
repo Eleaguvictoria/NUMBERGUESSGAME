@@ -16,6 +16,10 @@ public class NumberGuessServlet extends HttpServlet {
         targetNumber = new Random().nextInt(100) + 1;
     }
 
+    public int getTargetNumber() {
+        return targetNumber;
+    }
+
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html");
